@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Tyres Gallery"
+            android:textColor="#35c752"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            android:singleLine="true" />
+        <Button
+            android:id="@+id/btnHome"
+            android:text="@string/button_home"
+            android:layout_width="fill_parent"
+            android:textColor="#f9fbf9"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="40dp"
+            android:background="@drawable/buttonshape_4"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:onClick="mainActive"
+
+            android:layout_margin="10dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="564dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/elpaso"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal|right">
+        </ImageView>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow>
+                <Button
+                    android:id="@+id/btnDun"
+                    android:background="@drawable/buttonshape_4"
+                    android:textColor="#f6f6f9"
+                    android:shadowColor="#9EA811"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_weight="1"
+                    android:text="Beef Burgers"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:onClick="dunActivity"/>
+                <Button
+                    android:id="@+id/btnBridgestone"
+                    android:background="@drawable/buttonshape_4"
+                    android:textColor="#fbf8f8"
+                    android:shadowColor="#9EA811"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_weight="1"
+                    android:text="Chicken Burgers"
+                    android:textStyle="bold"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:onClick="bridgestoneActivity"/>
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:id="@+id/btnGoodyear"
+                    android:background="@drawable/buttonshape_4"
+                    android:textColor="#f9f9fc"
+                    android:shadowColor="#9EA811"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_weight="1"
+                    android:text="Veggie Burger"
+                    android:textStyle="bold"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:onClick="goodyearActivity"/>
+                <Button
+                    android:id="@+id/btnPirelli"
+                    android:background="@drawable/buttonshape_4"
+                    android:textColor="#f6f7fa"
+                    android:shadowColor="#9EA811"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_weight="1"
+                    android:text="Lamb Burgers"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:onClick="pirelliActivity"
+                    android:textSize="14sp" />
+
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:id="@+id/btnTriangle"
+                    android:background="@drawable/buttonshape_4"
+                    android:textColor="#fafafc"
+                    android:shadowColor="#9EA811"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_weight="1"
+                    android:text="Kebabs"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:onClick="triangleActivity"/>
+                <Button
+                    android:id="@+id/btnKumho"
+                    android:background="@drawable/buttonshape_4"
+                    android:textColor="#f7f7fa"
+                    android:shadowColor="#9EA811"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:text="Gozleme"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:onClick="kumhoActivity"/>
+
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:id="@+id/btnKseries"
+                    android:background="@drawable/buttonshape_4"
+                    android:textColor="#f3f3f8"
+                    android:shadowColor="#9EA811"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_weight="1"
+                    android:text="Meatbox"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/btnHifly"
+                    android:background="@drawable/buttonshape_4"
+                    android:textColor="#f7f8fa"
+                    android:shadowColor="#9EA811"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:text="Chips"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp" />
+
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:id="@+id/btnFirestone"
+                    android:background="@drawable/buttonshape_4"
+                    android:textColor="#f7f7fb"
+                    android:shadowColor="#9EA811"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_weight="1"
+                    android:text="Smoothies"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp" />
+                <Button
+                    android:id="@+id/btnDiamond"
+                    android:background="@drawable/buttonshape_4"
+                    android:textColor="#f5f5fa"
+                    android:shadowColor="#9EA811"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_weight="1"
+                    android:text="Juices"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp" />
+
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:id="@+id/btnShakes"
+                    android:background="@drawable/buttonshape_4"
+                    android:textColor="#f5f5fa"
+                    android:shadowColor="#9EA811"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_weight="1"
+                    android:text="Shakes"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp" />
+                <Button
+                    android:id="@+id/btnCoffee"
+                    android:background="@drawable/buttonshape_4"
+                    android:textColor="#f5f5fa"
+                    android:shadowColor="#9EA811"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_weight="1"
+                    android:text="Coffee"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp" />
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:id="@+id/btnTea"
+                    android:background="@drawable/buttonshape_4"
+                    android:textColor="#f5f5fa"
+                    android:shadowColor="#9EA811"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_weight="1"
+                    android:text="Tea"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp" />
+            </TableRow>
+        </TableLayout>
+        <Button
+            android:id="@+id/btnCall"
+            android:text="@string/button_call"
+
+            android:layout_width="fill_parent"
+            android:background="@drawable/buttonshape_4"
+            android:textColor="#f4f5fa"
+            android:layout_height="40dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:shadowColor="#9EA811"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical|center|center_horizontal"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>

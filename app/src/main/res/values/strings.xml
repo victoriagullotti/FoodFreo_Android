@@ -1,0 +1,22 @@
+<?xml version="1.1" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Freo Food</string>
+    <string name="button_home">Home Page</string>
+
+    <string name="button_gallery">ORDER FOOD</string>
+    <string name="button_dunlop">Dunlop</string>
+
+    <string name="button_about">Wheel Alignment</string>
+    <string name="button_email">Email us</string>
+    <string name="button_call">Call us</string>
+    <string name="button_newEmail">New E-mail</string>
+
+    <string name="file">Menu</string>
+    <string name="app_home">Home Page</string>
+    <string name="compose_email">Compose Email</string>
+    <string name="welcome">Fremantle Food App</string>
+
+    <color name="background_color">#FFFFFF</color>
+    <color name="text_color">#323232</color>
+    <string name="text4">Please Email Us\n\n</string>
+</resources>

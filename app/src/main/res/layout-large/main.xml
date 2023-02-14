@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/desk6"
+
+    android:visibility="visible">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Fooo Freo"
+            android:id="@+id/textView"
+            android:gravity="center_vertical|center|center_horizontal"
+            android:textAlignment="gravity"
+            android:textColor="#43d062"
+            android:textColorHighlight="#b5f4a8"
+            android:textSize="36dp"
+            android:textStyle="bold|italic"
+            android:visibility="visible"
+            android:layout_marginLeft="15dp"
+
+            android:layout_marginRight="15dp"
+            android:editable="false" />
+
+        <Button
+            android:id="@+id/btnCall"
+            android:text="@string/button_call"
+
+            android:layout_width="fill_parent"
+            android:background="@drawable/buttonshape_4"
+            android:textColor="@color/colorWhite"
+            android:layout_height="40dp"
+            android:layout_marginLeft="450dp"
+            android:layout_marginRight="10dp"
+            android:shadowColor="#9EA811"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_weight="3"
+            android:layout_marginTop="10dp"
+
+            android:gravity="center"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="170dp"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="#ebe6e6"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="Logo">
+        </ImageView>
+        <Button
+            android:id="@+id/btnHome"
+            android:text="@string/button_home"
+
+            android:layout_width="fill_parent"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="450dp"
+            android:layout_height="40dp"
+            android:background="@drawable/buttonshape_4"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:onClick="homePage"
+            android:layout_weight="3"
+
+
+            android:gravity="center"
+            android:textSize="24dp"
+            android:layout_marginTop="200dp" />
+         
+
+            <Button
+        android:id="@+id/btnGallery"
+        android:text="@string/button_gallery"
+
+        android:layout_width="fill_parent"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/buttonshape_4"
+        android:layout_height="40dp"
+        android:onClick="tyresActivity"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="350dp"
+        android:shadowColor="#3819FF"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_weight="3"
+        android:layout_marginTop="10dp"
+
+        android:gravity="center"
+        android:textSize="24dp" />
+         
+
+
+
+        <Button
+            android:id="@+id/btnEmail"
+            android:text="@string/button_email"
+
+            android:layout_width="fill_parent"
+            android:background="@drawable/buttonshape"
+            android:textColor="@color/colorWhite"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="150dp"
+            android:shadowColor="#9EA811"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_weight="3"
+            android:layout_marginTop="10dp"
+            android:onClick="emailActivity"
+
+            android:gravity="center"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+</ScrollView>
+

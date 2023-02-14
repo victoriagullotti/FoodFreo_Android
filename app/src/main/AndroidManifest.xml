@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="l8appdesign.pages" android:versionCode="1"
+    android:versionName="1">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk android:maxSdkVersion="26" android:minSdkVersion="14" android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+
+    <supports-screens android:anyDensity="true" android:largeScreens="true"
+        android:normalScreens="true" android:resizeable="true" android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <compatible-screens>
+
+        <!-- all small size screens -->
+        <screen android:screenDensity="ldpi" android:screenSize="small" />
+        <screen android:screenDensity="mdpi" android:screenSize="small" />
+        <screen android:screenDensity="hdpi" android:screenSize="small" />
+        <screen android:screenDensity="xhdpi" android:screenSize="small" />
+        <!-- all normal size screens -->
+        <screen android:screenDensity="ldpi" android:screenSize="normal" />
+        <screen android:screenDensity="mdpi" android:screenSize="normal" />
+        <screen android:screenDensity="hdpi" android:screenSize="normal" />
+        <screen android:screenDensity="xhdpi" android:screenSize="normal" />
+        <!-- all large size screens -->
+        <screen android:screenDensity="ldpi" android:screenSize="large" />
+        <screen android:screenDensity="mdpi" android:screenSize="large" />
+        <screen android:screenDensity="hdpi" android:screenSize="large" />
+        <screen android:screenDensity="xhdpi" android:screenSize="large" />
+        <!-- all xlarge size screens -->
+        <screen android:screenDensity="ldpi" android:screenSize="xlarge" />
+        <screen android:screenDensity="mdpi" android:screenSize="xlarge" />
+        <screen android:screenDensity="hdpi" android:screenSize="xlarge" />
+        <screen android:screenDensity="xhdpi" android:screenSize="xlarge" />
+    </compatible-screens>
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+
+    <application android:allowBackup="true" android:icon="@drawable/desk6"
+        android:label="@string/app_name" android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="l8appdesign.pages.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="l8appdesign.pages.HomePage" android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="l8appdesign.pages.HomePage" />
+
+                <category android:name="com.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="l8appdesign.pages.GalleryActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="l8appdesign.pages.GalleryActivity" />
+
+                <category android:name="com.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="l8appdesign.pages.BeefBurgers"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="l8appdesign.pages.BeefBurgers" />
+
+                <category android:name="com.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="l8appdesign.pages.EmailActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="l8appdesign.pages.EmailActivity" />
+
+                <category android:name="com.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="l8appdesign.pages.Chips"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="l8appdesign.pages.Chips" />
+
+                <category android:name="com.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="l8appdesign.pages.Smoothies"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="l8appdesign.pages.WheelActivity" />
+
+                <category android:name="com.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="l8appdesign.pages.ChickenBurgers"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="l8appdesign.pages.ChickenBurgers" />
+
+                <category android:name="com.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="l8appdesign.pages.VeggieBurger"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="l8appdesign.pages.VeggieBurger" />
+
+                <category android:name="com.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="l8appdesign.pages.LambBurgers"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="l8appdesign.pages.LambBurgers" />
+
+                <category android:name="com.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="l8appdesign.pages.Kebabs"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="l8appdesign.pages.Kebabs" />
+
+                <category android:name="com.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="l8appdesign.pages.Gozleme"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="l8appdesign.pages.Gozleme" />
+
+                <category android:name="com.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="l8appdesign.pages.Juices"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="l8appdesign.pages.Juices" />
+
+                <category android:name="com.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="l8appdesign.pages.ProteinShakes"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="l8appdesign.pages.ProteinShakes" />
+
+                <category android:name="com.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="l8appdesign.pages.MeatboxActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="l8appdesign.pages.MeatboxActivity" />
+
+                <category android:name="com.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

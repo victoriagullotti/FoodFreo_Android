@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#2bb421"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnHome"
+            android:text="@string/button_home"
+            android:layout_width="fill_parent"
+            android:textColor="#fafafd"
+            android:layout_height="30dp"
+            android:background="@drawable/buttonshape_4"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:onClick="serviceActivity"
+
+            android:layout_weight="1"
+            android:textSize="12dp" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send us an Email "
+            android:textColor="#fafcfd"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="12dp"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#ff87ff09"
+            android:textSize="30dp"
+            android:layout_above="@+id/imageButton"
+            android:layout_alignRight="@+id/imageButton"
+            android:layout_alignEnd="@+id/imageButton" />
+
+
+
+        <Button
+            android:id="@+id/sendEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:text="@string/button_newEmail"
+            android:background="@drawable/buttonshape_4"
+
+
+            android:textColor="@color/colorWhite"
+
+
+            android:shadowColor="#4F70A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_weight="3"
+            android:elevation="@dimen/abc_alert_dialog_button_bar_height"
+            android:gravity="center"
+            android:textSize="12dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#04b859"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Chicken Burgers"
+            android:enabled="true"
+            android:gravity="center"
+            android:textColor="#fefdfd"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/btnReturn"
+            android:text="@string/app_home"
+            android:layout_width="fill_parent"
+            android:textColor="#f7f7f9"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonshape_4"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:onClick="mainActive"
+
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <Gallery
+            android:id="@+id/gallery1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:spacing="5dp"
+            android:nestedScrollingEnabled="true"
+            android:layoutMode="opticalBounds"
+            android:scrollIndicators="left|right"
+
+            />
+
+        <ImageSwitcher
+            android:id="@+id/switcher1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:scrollIndicators="left|right"
+            android:visibility="visible"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:nestedScrollingEnabled="true"
+            />
+        <TextView
+            android:id="@+id/studentName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="35dp" />
+        <TextView
+            android:id="@+id/studentLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#737272"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:id="@+id/studentBio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/studentEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:autoLink="email"
+            android:textColorLink="#737272"/>
+        <TextView
+            android:id="@+id/studentInstagram"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:autoLink="web"
+            android:textColorLink="#737272"/>
+        <Button
+            android:id="@+id/btnCall"
+            android:text="@string/button_call"
+
+            android:layout_width="fill_parent"
+            android:background="@drawable/buttonshape_4"
+            android:textColor="#f9f9fc"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:shadowColor="#9EA811"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="24dp" />
+
+         
+
+
+    </LinearLayout>
+</ScrollView>
